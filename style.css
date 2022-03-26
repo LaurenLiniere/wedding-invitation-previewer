@@ -1,0 +1,503 @@
+html, body {
+    background-color: #ECECE7;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(images/img_header_bg_2@2x.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-size: 100%, 500px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 75px;
+
+}
+
+.title {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#main-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+nav {
+    margin: 40px auto;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    width: 75%;
+}
+
+
+#invite-wrapper {
+    text-align: center;
+    width: 85%;
+    display: table;
+    clear: both;
+}
+
+  
+
+.design-fields {
+    width: 35%;
+    padding: 30px;
+    margin: 30px 0px 30px 30px;
+    text-align: center;
+    float: left;
+    padding-left: 20px;
+}    
+
+
+.invite-premium {
+    width: 400px;
+    min-height: 480px;
+    height: 520px;
+    padding: 30px;
+    margin: 30px 30px 30px 0px;
+    text-align: center;
+    float: right;
+    background-image: url(images/img_invite_premium.png);
+    /*background-image: cover;*/
+    background-repeat: no-repeat;
+    background-size: 105%;
+    font-family: 'superior-title', serif;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 20px;
+    color: #ffffff;
+    display: inline-block;
+    box-shadow: 5px 5px 5px rgb(179, 179, 179);
+} 
+
+
+.invite-garden {
+    width: 400px;
+    min-height: 480px;
+    height: 520px;
+    padding: 30px;
+    margin: 30px 30px 30px 0px;
+    text-align: center;
+    float: right;
+    background-image: url(images/img_invite_garden.png);
+    /*background-image: cover;*/
+    background-repeat: no-repeat;
+    background-size: 105%;
+    font-family: 'fino-sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 20px;
+    color: #ffffff;
+    display: inline-block;
+    box-shadow: 5px 5px 5px rgb(179, 179, 179);
+} 
+
+
+.invite-coastal {
+    width: 400px;
+    min-height: 480px;
+    height: 520px;
+    padding: 30px;
+    margin: 30px 30px 30px 0px;
+    text-align: center;
+    float: right;
+    background-image: url(images/img_invite_coastal.png);
+    /*background-image: cover;*/
+    background-repeat: no-repeat;
+    background-size: 120%;
+    font-family: orpheuspro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 20px;
+    color: #313131;
+    box-shadow: 5px 5px 5px rgb(179, 179, 179);
+} 
+
+
+
+
+input[type=text] {
+    width: 300px;
+    border: none;
+    border-bottom: solid 1px #535353;
+    background-color: #ECECE7;
+    box-sizing:border-box;
+    font-family: 'Brandon Grotesque', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+
+footer {
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+img.invite {
+    z-index: -1;
+    height: auto;
+    object-fit: contain;
+
+}
+
+
+#Name1rep, #Name2rep, #Locationrep, #Daterep, #Timerep {
+    /*font-family: 'Brandon Grotesque', sans-serif;*/
+    font-weight: 400;
+    color: #fff;
+    margin: 1px;
+    font-size: 32px;
+    line-height: 30px;
+    display: inline-block;
+    max-width: 15ch;
+}
+
+
+#Surnamerep {
+    /*font-family: 'Brandon Grotesque', sans-serif;*/
+    font-weight: 400;
+    color: #fff;
+    margin: 1px;
+    font-size: 32px;
+    line-height: 30px;
+    display: block;
+}
+
+
+
+
+
+/*TEXT STYLES*/
+
+h1, h2, h3, h4, h5, p, a {
+    font-family: 'Brandon Grotesque', sans-serif;
+    font-weight: 400;
+    color: #535353;
+    margin: 1px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+
+h2 {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 2px;
+}
+
+
+h3 {
+    font-size: 30px;
+    line-height: 34px;
+}
+
+
+h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+
+h4.inviteheader {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    color:#ECECE7;
+    display: block;
+}
+
+
+
+/*
+h1.premium {
+    font-family: superior-title, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    margin: 1px;
+    display: inline-block;
+}
+
+
+h1.coastal {
+    font-family: sudestada, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    margin: 1px;
+    display: inline-block;
+}
+
+
+h1.garden {
+    font-family: fino-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    margin: 1px;
+    display: inline-block;
+}
+*/
+
+
+
+
+a {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 2px 20px 2px 2px;
+    text-decoration: none;
+}
+
+a:hover {
+    font-family: 'Brandon Grotesque', sans-serif;
+    font-weight: 700;
+}
+
+a:active {
+    font-family: 'Brandon Grotesque', sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+/* IMAGE / ASSESTS */
+
+
+button {
+    transition-duration: 0.4s;
+    padding: 3px 6px;
+    background-color: #535353; color: #ECECE7;
+    box-shadow: none;
+    font-family: 'Brandon Grotesque', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #ECECE7;
+    color: #535353;
+    border-style: solid 1px #535353;
+    cursor: pointer;
+}
+
+
+img.inviteflourish {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 70px;
+}
+
+
+
+/* Media Queries*/
+
+
+/* Screen size is 601px wide- */
+@media screen and (max-width: 600px) {
+    
+    .header {
+        height: 100%;
+    }
+
+
+    h1 {
+        font-size: 26px;
+        text-transform: uppercase;
+        margin: 2px;
+    }
+    
+    
+    h2 {
+        font-size: 16px;
+        line-height: 18px;
+        margin: 1px;
+    }
+    
+    
+    h3 {
+        font-size: 21px;
+        line-height: 24px;
+    }
+    
+    
+    h4 {
+        font-size: 12px;
+        text-transform: uppercase;
+        padding-top: 25px;
+        padding-bottom: 5px;
+    }
+    
+    
+    h4.inviteheader {
+        font-size: 12px;
+        text-transform: uppercase;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        color:#ECECE7;
+        display: block;
+    }
+
+    header {
+        width: 100%;
+        height: 380px;
+        margin: 0 auto;
+        background-image: url(images/img_header_bg@2x.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 200%;
+        text-align: center;
+        display: inline-block;
+        padding-top: 30px;
+    }
+    
+    .title {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    #main-wrapper {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    
+    nav {
+        margin: 10px auto;
+        text-align: center;
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+    }
+    
+    
+    #invite-wrapper {
+        text-align: center;
+        width: 100%;
+        display: table;
+        clear: both;
+    }
+    
+      
+    
+    .design-fields {
+        width: 75%;
+        text-align: center;
+        margin: 0 auto;
+    }    
+    
+    
+    .invite-premium {
+        width: 70%;
+        min-height: 480px;
+        text-align: center;
+        background-image: url(images/img_invite_premium.png);
+        background-repeat: no-repeat;
+        background-size: 205%;
+        font-family: 'superior-title', serif;
+        font-weight: 300;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 24px;
+        line-height: 20px;
+        color: #ffffff;
+        display: inline-block;
+        box-shadow: 5px 5px 5px rgb(179 179 179);
+    } 
+    
+    
+    .invite-garden {
+        width: 70%;
+        min-height: 480px;
+        text-align: center;
+        background-image: url(images/img_invite_garden.png);
+        /*background-image: cover;*/
+        background-repeat: no-repeat;
+        background-size: 140%;
+        font-family: 'fino-sans', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 20px;
+        color: #ffffff;
+        display: inline-block;
+        box-shadow: 5px 5px 5px rgb(179, 179, 179);
+    } 
+    
+    
+    .invite-coastal {
+        width: 70%;
+        min-height: 480px;
+        text-align: center;
+        background-image: url(images/img_invite_coastal.png);
+        /*background-image: cover;*/
+        background-repeat: no-repeat;
+        background-size: 205%;
+        font-family: orpheuspro, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 20px;
+        color: #313131;
+        box-shadow: 5px 5px 5px rgb(179, 179, 179);
+    } 
+
+
+    a {
+        font-size: 21px;
+        line-height: 24px;
+        margin: 2px 5px 2px 5px;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        font-family: 'Brandon Grotesque', sans-serif;
+        font-weight: 700;
+    }
+    
+    a:active {
+        font-family: 'Brandon Grotesque', sans-serif;
+        font-weight: 700;
+    }
+
+}
